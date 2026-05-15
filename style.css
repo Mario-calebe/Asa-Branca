@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rye&display=swap');
+
+:root {
+    --fonte1: 'Cinzel', serif;
+    --fonte2: 'Merriweather', serif;
+    --fonte3: 'Passion One', cursive;
+    --fonte4: 'Bebas Neue', cursive;
+    --fonte5: 'Rye', cursive;
+        /* Tons secos do sertão */
+    --areia-clara: #D9C2A3;
+    --areia: #C2A178;
+    --terra: #8C5A3C;
+    --marrom-seco: #5A3A22;
+
+    /* Sol e calor */
+    --laranja-queimado: #C96B2C;
+    --sol: #E2A13B;
+
+    /* Contraste */
+    --preto-suave: #1E1A17;
+    --cinza-poeira: #6E6259;
+
+    /* Esperança/chuva */
+    --verde-oliva: #5F7A3D;
+    --verde-mato: #7FA35A;
+
+    /* Texto */
+    --branco-quente: #F5EBDD;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body {
+    min-height: 100vh;
+    background-color: var(--laranja-queimado);
+    font-family: var(--fonte2);
+}
+header {
+    text-align: center;
+   background-image: url(imagens/img7.png);
+   background-size: cover;
+   background-position:bottom center;
+   background-attachment: fixed;
+   min-height: 100vh;
+   min-width: 100vw;
+}
+header h1 {
+    font-family: var(--fonte5);
+    font-size: 12vw;
+    color: var(--preto-suave);
+    padding: 50px 0px 100px 0px;
+    text-shadow: 1px 1px 2px var(--cinza-poeira);
+}
+header p {
+    font-family: var(--fonte3);
+    color: var(--preto-suave);
+    font-size: 2vw;
+    padding-bottom: 50px;
+}
+header a {
+    color: var(--preto-suave);
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover {
+    color: var(--marrom-seco);
+    text-decoration: underline;
+}
+
+section {
+    min-width: 100vw;
+    padding: 5vh 0vh 5vh 1vw;
+    line-height: 2em;
+    font-family: var(--fonte4);
+    font-size: 4vw;
+
+}
+
+section p {
+    width: fit-content;
+}
+
+section.normal {
+    background-color: var(--branco-quente);
+
+}
+section.imagem {
+    
+}
+section.imagem p {
+    background-color: var(--preto-suave);
+    color: var(--branco-quente);
+    padding: 20px;
+    width: fit-content;
+}
+section.imagem#img1 {
+    background-image: url(imagens/img3.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#img2 {
+  background-image: url(imagens/img1.jfif);
+  background-size: cover;
+}
