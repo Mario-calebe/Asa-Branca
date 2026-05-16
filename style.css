@@ -73,16 +73,20 @@ header a:hover {
 }
 
 section {
+    min-height: 50vh;
     min-width: 100vw;
     padding: 5vh 0vh 5vh 1vw;
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 4vw;
+    display: flex;
+    align-items: center;
 
 }
 
 section p {
     width: fit-content;
+    padding: 20px;
 }
 
 section.normal {
@@ -90,13 +94,12 @@ section.normal {
 
 }
 section.imagem {
-    box-shadow: inset 7px 6px 13px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 7px 6px 13px 5px rgba(0, 0, 0, 0.836);
 
 }
 section.imagem p {
-    background-color: var(--preto-suave);
+    background-color: #1e1a17b4;
     color: var(--branco-quente);
-    padding: 20px;
     width: fit-content;
 }
 section.imagem#img1 {
