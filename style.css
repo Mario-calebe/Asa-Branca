@@ -40,7 +40,7 @@ html,body {
     font-family: var(--fonte2);
 }
 header {
-    text-align: center;
+   text-align: center;
    background-image: url(imagens/img7.png);
    background-size: cover;
    background-position:bottom center;
@@ -53,13 +53,14 @@ header h1 {
     font-size: 12vw;
     color: var(--preto-suave);
     padding: 50px 0px 100px 0px;
-    text-shadow: 1px 1px 2px var(--cinza-poeira);
+    text-shadow: 10px 1px 20px var(--cinza-poeira);
 }
 header p {
     font-family: var(--fonte3);
     color: var(--preto-suave);
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding-bottom: 50px;
+    text-shadow: 1px 1px 2px var(--cinza-poeira);
 }
 header a {
     color: var(--preto-suave);
@@ -89,7 +90,8 @@ section.normal {
 
 }
 section.imagem {
-    
+    box-shadow: inset 7px 6px 13px 5px rgba(0, 0, 0, 0.5);
+
 }
 section.imagem p {
     background-color: var(--preto-suave);
@@ -106,6 +108,15 @@ section.imagem#img1 {
 }
 
 section.imagem#img2 {
-  background-image: url(imagens/img1.jfif);
+  background-image: url(imagens/img8.png);
   background-size: cover;
+  background-attachment: fixed;
+}
+footer {
+    font-size: 2vh;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--preto-suave);
+    color: var(--branco-quente);
+    font-family: var(--fonte5);
 }
