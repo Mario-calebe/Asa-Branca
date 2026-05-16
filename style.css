@@ -47,6 +47,8 @@ header {
    background-attachment: fixed;
    min-height: 100vh;
    min-width: 100vw;
+   box-shadow: inset -12px -1px 20px 5px rgba(0, 0, 0, 0.836);;
+
 }
 header h1 {
     font-family: var(--fonte5);
