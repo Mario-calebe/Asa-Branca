@@ -54,7 +54,7 @@ header {
    background-attachment: fixed;
    min-height: 100vh;
    min-width: 100vw;
-   box-shadow: inset -0px -1px 13px 5px rgba(0, 0, 0, 0.836);;
+   box-shadow: inset -0px -1px 13px 5px rgba(0, 0, 0, 0.836);
 
 }
 header h1 {
@@ -90,7 +90,7 @@ section {
     font-size: 4vw;
     display: flex;
     align-items: center;
-
+    text-shadow: 1px 1px 1px var(--terra);
 }
 
 section p {

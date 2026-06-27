@@ -1,7 +1,26 @@
 header{
     background-image: url(imagens/portraitimg.png);
+    background-position: center bottom;
 }
 
 header p {
     font-size: 4.5vw;
+}
+
+section.imagem#img1 {
+    background-image: url(imagens/portrait2.png);
+    background-position: center bottom;
+}
+
+section.imagem#img2 {
+    background-image: url(imagens/portrait3.png);
+    background-position: center bottom;
+
+
+}
+
+section {
+    line-height: 2em;
+    font-size: 6vw;
+    
 }
